@@ -1,0 +1,32 @@
+h1 { font-family: 'Open Sans', sans-serif; }
+
+header {
+  padding: 1px;
+  margin: 5px;
+  border: 1px solid #65A4C6;
+  box-shadow: 1px 1px 5px #333;
+
+  background: #258dc8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #258dc8 0%, #1f5ba8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #258dc8 0%,#1f5ba8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #258dc8 0%,#1f5ba8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#1f5ba8',GradientType=0 ); /* IE6-9 */
+}
+
+tbody tr { cursor: pointer; }
+tbody td.details { display: none;}
+
+.modalBox h2 { font-family: 'Open Sans', sans-serif; padding: 10px; margin: 0 0 5px;}
+.modalBox li{ list-style: none; margin: 4px 0; display: block; }
+.modalBox .header { background: #1f5ba8; color: #fff; }
+.modalBox {
+  border-radius: 6px;
+  background-color: #fff;
+  width:700px;
+  height: 250px;
+  padding:10px;
+  -webkit-box-shadow: 1px 1px 5px #666);
+  -moz-box-shadow: 1px 1px 5px #666;
+  box-shadow: 1px 1px 5px #666);
+
+}
